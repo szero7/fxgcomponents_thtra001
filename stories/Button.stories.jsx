@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-import  Button  from '../components/Collection/Button';
+import  Button  from '../lib/Button/Button';
 
 export default {
     title: 'Components-TP1/Button',
@@ -38,4 +38,3 @@ Large.args = {
     width: '600px',
     height: '15px'
 };
-

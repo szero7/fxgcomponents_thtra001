@@ -2,13 +2,12 @@
 import React from 'react';
 import './style.css';
 
-import  Paper  from '../components/Collection/Paper';
+import  Paper  from '../lib/Paper/Paper';
 
 export default {
     title: 'Components-TP1/Paper',
     component: Paper
 };
-
 
 // Trois scénarios possibles pour le paper
 const Template = (args) => <Paper {...args} />;

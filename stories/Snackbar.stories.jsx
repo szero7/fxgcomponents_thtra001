@@ -2,13 +2,12 @@
 import React from 'react';
 import './style.css';
 
-import  Snackbar  from '../components/Collection/Snackbar';
+import  Snackbar  from '../lib/Snackbar/Snackbar';
 
 export default {
     title: 'Components-TP1/Snackbar',
     component: Snackbar
 };
-
 
 // Trois scénarios possibles pour les types de snackbar
 const Template = (args) => <Snackbar {...args} />;

@@ -2,7 +2,7 @@
 import React from 'react';
 import './style.css';
 
-import  Rating  from '../components/Collection/Rating';
+import  Rating  from '../lib/Rating/Rating';
 
 export default {
     title: 'Components-TP1/Rating',
@@ -25,4 +25,3 @@ export const thirdRating = Template.bind({});
 thirdRating.args = {
     precision: 2
 };
-

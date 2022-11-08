@@ -2,13 +2,12 @@
 import React from 'react';
 import './style.css';
 
-import  Transition  from '../components/Collection/Transition';
+import  Transition  from '../lib/Transition/Transition';
 
 export default {
     title: 'Components-TP1/Transition',
     component: Transition
 };
-
 
 // Trois scénarios possibles pour le compte à rebours
 const Template = (args) => <Transition {...args} />;
@@ -26,4 +25,3 @@ export const slowTransition = Template.bind({});
 slowTransition.args = {
   speed: 3000
 };
-

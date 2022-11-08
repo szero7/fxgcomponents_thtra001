@@ -2,13 +2,12 @@
 import React from 'react';
 import './style.css';
 
-import  Avatar  from '../components/Collection/Avatar';
+import  Avatar  from '../lib/Avatar/Avatar';
 
 export default {
     title: 'Components-TP1/Avatar',
     component: Avatar
 };
-
 
 // Trois scénarios possibles pour les types d'affichage d'avatars'
 const Template = (args) => <Avatar {...args} />;
@@ -32,4 +31,3 @@ lSize.args = {
     width : 150,
     height : 150
 };
-
