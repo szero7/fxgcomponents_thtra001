@@ -2,7 +2,7 @@
 import React from 'react';
 import './style.css';
 
-import  Slider  from '../components/Collection/Slider';
+import  Slider  from '../lib/Slider/Slider';
 
 export default {
     title: 'Components-TP1/Slider',

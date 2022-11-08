@@ -2,13 +2,12 @@
 import React from 'react';
 import './style.css';
 
-import  Progress  from '../components/Collection/Progress';
+import  Progress  from '../lib/Progress/Progress';
 
 export default {
     title: 'Components-TP1/Progress',
     component: Progress
 };
-
 
 // Trois scénarios possibles pour la durée du compte à rebours
 const Template = (args) => <Progress {...args} />;

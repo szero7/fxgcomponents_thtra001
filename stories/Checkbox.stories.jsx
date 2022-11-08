@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-import  Checkbox  from '../components/Collection/Checkbox';
+import  Checkbox  from '../lib/Checkbox/Checkbox';
 
 export default {
     title: 'Components-TP1/Checkbox',
@@ -31,5 +31,3 @@ Disabled.args = {
     size: 'large',
     disabled: true
 };
-
-
