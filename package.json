@@ -1,6 +1,6 @@
 {
   "name": "fxgcomponents_thtra001",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "React Components for crypto-dns",
   "main": "index.js",
   "scripts": {
