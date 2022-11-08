@@ -9,7 +9,6 @@ export default {
     component: Transition
 };
 
-
 // Trois scénarios possibles pour le compte à rebours
 const Template = (args) => <Transition {...args} />;
 export const fastTransition = Template.bind({});
@@ -26,4 +25,3 @@ export const slowTransition = Template.bind({});
 slowTransition.args = {
   speed: 3000
 };
-
