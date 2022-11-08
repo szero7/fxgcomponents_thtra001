@@ -1,4 +1,3 @@
-"Use strict";
 import React from 'react';
 import './style.css';
 
