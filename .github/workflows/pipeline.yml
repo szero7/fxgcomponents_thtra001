@@ -51,3 +51,5 @@ jobs:
           server: ${{ secrets.HOTE_SERVEUR }}
           username: ${{ secrets.USER_FTP }}
           password: ${{ secrets.PASSWORD_FTP }}
+          local-dir: ./storybook-static/
+          server-dir: public_html/storybook/
