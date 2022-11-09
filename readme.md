@@ -1,4 +1,4 @@
-# Collaboration
+# Collaboration pour les Composants/Stories
 
 - Willy Dian
 - Thomas Tran Dinh
