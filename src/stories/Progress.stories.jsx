@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-import  Progress  from '../lib/Progress/Progress';
+import  Progress  from '../components/Progress/Progress';
 
 export default {
     title: 'Components-TP1/Progress',

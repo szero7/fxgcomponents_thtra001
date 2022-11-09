@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-import  Transition  from '../lib/Transition/Transition';
+import  Transition  from '../components/Transition/Transition';
 
 export default {
     title: 'Components-TP1/Transition',

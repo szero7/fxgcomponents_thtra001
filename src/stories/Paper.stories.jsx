@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-import  Paper  from '../lib/Paper/Paper';
+import  Paper  from '../components/Paper/Paper';
 
 export default {
     title: 'Components-TP1/Paper',

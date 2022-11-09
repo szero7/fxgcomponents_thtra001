@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-import  Snackbar  from '../lib/Snackbar/Snackbar';
+import  Snackbar  from '../components/Snackbar/Snackbar';
 
 export default {
     title: 'Components-TP1/Snackbar',

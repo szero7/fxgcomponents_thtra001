@@ -5,6 +5,6 @@ export * from './components/Slider';
 export * from './components/Rating';
 export * from './components/Snackbar';
 export * from './components/Progress';
-export * from './components/components/Avatar';
+export * from './components/Avatar';
 export * from './components/Paper';
 export * from './components/Transition';

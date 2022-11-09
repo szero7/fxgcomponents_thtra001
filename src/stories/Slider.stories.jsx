@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-import  Slider  from '../lib/Slider/Slider';
+import  Slider  from '../components/Slider/Slider';
 
 export default {
     title: 'Components-TP1/Slider',

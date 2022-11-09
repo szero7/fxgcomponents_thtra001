@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-import  Rating  from '../lib/Rating/Rating';
+import  Rating  from '../components/Rating/Rating';
 
 export default {
     title: 'Components-TP1/Rating',

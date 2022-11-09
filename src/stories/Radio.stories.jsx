@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-import  Radio  from '../lib/Radio/Radio';
+import  Radio  from '../components/Radio/Radio';
 
 export default {
     title: 'Components-TP1/Radio',
