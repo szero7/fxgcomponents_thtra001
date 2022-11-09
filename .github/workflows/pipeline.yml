@@ -37,19 +37,19 @@ jobs:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
-      - name: 🚚 Get latest code
-        uses: actions/checkout@v2
+     - name: 🚚 Get latest code
+       uses: actions/checkout@v2
 
-      - name: Build project
-        run: |
-          yarn install
-          yarn build-storybook
+     - name: Build project
+       run: |
+         yarn install
+         yarn build-storybook
 
-      - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@4.3.2
-        with:
-          server: ${{ secrets.HOTE_SERVEUR }}
-          username: ${{ secrets.USER_FTP }}
-          password: ${{ secrets.PASSWORD_FTP }}
-          local-dir: ./storybook-static/
-          server-dir: public_html/storybook/
+     - name: 📂 Sync files
+       uses: SamKirkland/FTP-Deploy-Action@4.3.2
+       with:
+         server: ${{ secrets.HOTE_SERVEUR }}
+         username: ${{ secrets.USER_FTP }}
+         password: ${{ secrets.PASSWORD_FTP }}
+         local-dir: ./storybook-static/
+         server-dir: public_html/storybook/
