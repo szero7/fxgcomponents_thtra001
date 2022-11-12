@@ -38,3 +38,12 @@ Large.args = {
     width: '600px',
     height: '15px'
 };
+
+export const Patate = Template.bind({});
+Patate.args = {
+    text: 'Frontend ou backend ?',
+    color: 'error',
+    variant: 'contained',
+    width: '600px',
+    height: '15px'
+};
